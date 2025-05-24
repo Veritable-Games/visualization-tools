@@ -1,0 +1,31 @@
+<!-- Notebook Browser Panel -->
+<div class="notebook-panel">
+  <h2>Notebook Browser</h2>
+  <div class="notebook-browser">
+    <div class="notebook-sidebar">
+      <select id="directory-select">
+        <option value="">Select a directory...</option>
+      </select>
+      <div id="file-list" class="file-list">
+        <div class="file-item">Select a directory first</div>
+      </div>
+    </div>
+    <div id="notebook-content" class="notebook-content">
+      Select a file to view its content...
+    </div>
+  </div>
+  <button id="import-button" disabled>Import to Wiki</button>
+</div>
+
+<!-- Improved Navigation -->
+<nav class="main-nav">
+  <ul class="nav-links">
+    <li><a href="http://localhost:3003/enhanced" target="_blank">Enhanced Wiki</a></li>
+    <li><a href="http://localhost:3003/simple" target="_blank">Notebook Browser</a></li>
+    <li><a href="http://localhost:8081" target="_blank">3D Visualization</a></li>
+  </ul>
+</nav>
+
+<!-- External Resources -->
+<script src="/notebook-browser.js"></script>
+<link rel="stylesheet" href="/enhanced-styles.css">
